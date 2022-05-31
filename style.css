@@ -1,0 +1,56 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: orange ;
+	
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    border: 2px solid black;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+	 border-radius: 25px;
+}
+
+header>p {
+    color: orange;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: calibri;
+	text-shadow: 1px 1px 1px #000;	
+    margin-top: 20px;
+    -webkit-text-stroke: 1px black;
+}
+
+
+main>div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form {
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+	text-shadow: 1px 1px 1px #000;	
+	 border-radius: 25px;
+	  border: 2px solid black;
+}
+
+select {
+    width: 150px;
+    margin: 10px;
+}
+
+button {
+    margin-top: 15px;
+    width: 150px;
+    height: 80px;
+    font-size: 30px;
+}
